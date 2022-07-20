@@ -1,5 +1,0 @@
-User-agent: * 
-Allow: /
-
-Sitemap: https://proweb.uz/sitemap.xml
-Host: https://proweb.uz/

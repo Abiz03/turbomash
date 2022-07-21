@@ -232,7 +232,7 @@ h6 {
 }
 .section-title {
   position: relative;
-  font-size: 40px;
+  font-size: 35px;
   letter-spacing: 2px;
 }
 @media only screen and (max-width: 767px) {
@@ -243,7 +243,8 @@ h6 {
 }
 .title-block {
   letter-spacing: 2px;
-  font-size: 20px;
+  font-size: 18px;
+  font-weight: 700;
 }
 .sm-p {
   font-size: 14px;
@@ -2957,7 +2958,10 @@ a.link-hover:hover {
 }
 .box-options .box-icon svg {
   width: 22px;
-  fill: var(--heading-color);
+  fill: #fff;
+}
+.box-options span {
+  color: #fff;
 }
 .box-options .box-inner-option {
   width: 0;

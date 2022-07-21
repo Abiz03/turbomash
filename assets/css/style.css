@@ -2871,6 +2871,10 @@ body:not(.dsn-line-style).nav-bg.hide-nav .site-header {
           flex-direction: column;
   padding-left: 0;
 }
+.blog-item p, .blog-item li {
+  color: #000;
+  font-weight: 500;
+}
 .our-blog.our-blog-classic .blog-item .box-meta {
   padding-top: 15px;
   padding-bottom: 15px;

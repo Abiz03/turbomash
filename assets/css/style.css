@@ -78,10 +78,10 @@
   }
 }
 :root {
-  --body-font: "Roboto", sans-serif;
-  --heading-font: "Poppins", sans-serif;
-  --font-code: Menlo, monaco, Consolas, Lucida Console, monospace;
-  --font-pre: "Courier 10 Pitch", Courier, monospace;
+  --body-font: "Montserrat", sans-serif;
+  --heading-font: "Montserrat", sans-serif;
+  /* --font-code: Menlo, monaco, Consolas, Lucida Console, monospace; */
+  /* --font-pre: "Courier 10 Pitch", Courier, monospace; */
   --font-size-base: 16px;
   --font-size-h1: 40px;
   --font-size-h2: 35px;
@@ -102,9 +102,7 @@
 /* -------------------------------------------------------
                    Core
 -------------------------------------------------------- */
-* {
-  ff
-}
+
 html {
   font-size: var(--font-size-base);
 }
@@ -2795,7 +2793,7 @@ body:not(.dsn-line-style).nav-bg.hide-nav .site-header {
   line-height: 30px;
   border-radius: 50%;
   background-color: var(--theme-color);
-  color: var(--heading-color);
+  color: #fff;
   text-align: center;
   margin-right: 15px;
   font-size: 14px;

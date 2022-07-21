@@ -1037,13 +1037,18 @@ body:not(.v-dark):not(.dsn-line-style) .site-header {
   display: inherit;
 }
 .site-header .main-logo .dark-logo {
-  display: none;
+  /* display: none; */
+}
+@media(max-width: 992px) {
+  .site-header .main-logo .dark-logo {
+    display: none;
+  }
 }
 body:not(.v-dark) .site-header .main-logo .light-logo {
   display: none;
 }
 body:not(.v-dark) .site-header .main-logo .dark-logo {
-  display: inherit;
+  /* display: inherit; */
 }
 .admin-bar .site-header {
   top: 46px;
@@ -1074,7 +1079,7 @@ body:not(.v-dark) .site-header .main-logo .dark-logo {
   }
 }
 .site-header .inner-header .main-logo {
-  width: 96px;
+  width: 200px;
   pointer-events: all;
 }
 .site-header .inner-header .main-logo img {
@@ -5304,4 +5309,15 @@ body.dsn-show-contact .contact-modal {
 
 .box-seat .pro-text {
   bottom: -120px;
+}
+.dark-logo1 {
+  display: none;
+}
+@media(max-width: 992px) {
+  .dark-logo {
+    display: none;
+  }
+  .dark-logo1 {
+    display: flex;
+  }
 }

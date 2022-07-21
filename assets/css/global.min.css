@@ -207,22 +207,23 @@ h6 {
   color: var(--heading-color);
   font-family: var(--heading-font);
   font-size: 45px;
+  font-weight: 700;
   letter-spacing: 2px;
 }
 @media only screen and (max-width: 767px) {
   .title {
-    font-size: 47px;
+    font-size: 40px;
   }
 }
 @media only screen and (max-width: 575px) {
   .title {
-    font-size: 40px;
+    font-size: 35px;
     line-height: 1.2;
   }
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 480px) {
   .title {
-    font-size: 35px;
+    font-size: 25px;
   }
 }
 .sub-heading {
@@ -792,6 +793,12 @@ a:focus {
     max-width: 100%;
     padding-right: 40px;
     padding-left: 40px;
+  }
+  .site-header {
+    background: #fff;
+    box-shadow: 0 5px 5px #000;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
   }
 }
 @media only screen and (max-width: 767px) {

@@ -2935,7 +2935,7 @@ body:not(.dsn-line-style).nav-bg.hide-nav .site-header {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    padding-left: 0;
+    /* padding-left: 0; */
   }
 }
 .blog-item .metas {

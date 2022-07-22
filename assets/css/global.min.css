@@ -3118,7 +3118,7 @@ a.link-hover:hover {
   }
 }
 .box-options:hover {
-  width: 145px;
+  width: 100px;
 }
 .box-options:hover .box-inner-option {
   width: 110px;
